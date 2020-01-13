@@ -8,7 +8,6 @@
 }
 
 #minesweeper .menu button{
-  /* margin:10px; */
   border:none;
   outline: none;
   cursor: pointer;
@@ -40,13 +39,60 @@
   line-height: 20px;
 }
 #minesweeper .game-zone td.mine{
-  background: #fff url(../images/mine.png) no-repeat center;
+  background: #d9d9d9 url(../images/mine.png) no-repeat center;
   background-size:cover;
 }
 
 #minesweeper .game-zone td.flag{
-  background: #fff url(../images/flag.png) no-repeat center;
+  background: #d9d9d9 url(../images/flag.png) no-repeat center;
   background-size:cover;
+}
+
+#minesweeper .game-zone td.zero{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+}
+
+#minesweeper .game-zone td.one{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+  color:#0332fe;
+}
+
+#minesweeper .game-zone td.two{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+  color:#019f02;
+}
+
+#minesweeper .game-zone td.three{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+  color:#ff2600;
+}
+
+#minesweeper .game-zone td.four{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+  color:#93208f;
+}
+
+#minesweeper .game-zone td.five{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+  color:#ff7f29;
+}
+
+#minesweeper .game-zone td.six{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+  color:#ff3fff;
+}
+
+#minesweeper .game-zone td.seven{
+  border-color:#d9d9d9;
+  background-color: #d9d9d9;
+  color:#3fffbf;
 }
 
 #minesweeper .remaining{
