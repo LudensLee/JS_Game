@@ -1,0 +1,66 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+.wrapper{
+  height:100vh;
+  width:100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper #sky{
+  position: absolute;
+  background-image: url(../Image/sky.png);
+  background-size:contain;
+  width:200%;
+  height: 100%;
+  top:0px;
+  left:0px;
+}
+
+.wrapper #land{
+  position: absolute;
+  background-image:url(../Image/land.png);
+  background-size: contain;
+  width:200%;
+  height:112px;
+  bottom:0px;
+  left:0px;
+}
+
+.wrapper #bird{
+  position: absolute;
+  background-image: url(../Image/bird.png);
+  height:25px;
+  width:36px;
+  top:50%;
+  left:30%;
+}
+
+.wrapper #bird.swing0{
+  background-position: -8px -10px;
+}
+.wrapper #bird.swing1{
+  background-position: -60px -10px;
+}
+.wrapper #bird.swing2{
+  background-position: -113px -10px;
+}
+
+.wrapper #pipes .pipe-up , 
+.wrapper #pipes .pipe-down{
+  position: absolute;
+  width:52px;
+  /* height:420px; */
+}
+
+.wrapper #pipes .pipe-up{
+  background-image: url(../Image/pipeDown.png); 
+  background-position: bottom;
+}
+
+.wrapper #pipes .pipe-down{
+  background-image: url(../Image/pipeUp.png); 
+}
